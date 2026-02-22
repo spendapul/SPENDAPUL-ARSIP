@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SPENDAPUL-ARSIP</title>
+  <link rel="icon" href="https://www.google.com/search?sca_esv=32d6ceb16747127d&sxsrf=ANbL-n64GToiM9XadJ7ro4Wr8my9nHyXgA:1771746962037&udm=2&fbs=ADc_l-ZzMsFdkJzW5bCiKUp9QYYyqWbz_LQedbWvUV8PQbWsf7dbid9Up8x_5I6xfEIUbnsvQgtl0LVuh4UBpM-snDpdo6cvgRrxagvUrOhjp12_x64JwaJ2BpCKDHg4AubDQWRwFpGuk52FLYm3gI6tcOHbMEUurFXDxR4C7BIzQ_XsE_5U8axFrYUltZcBk4VySDsP46ZPZ-zr0Ks5lFb8IVlHcu0Pow&q=spendapul&sa=X&ved=2ahUKEwisjrfiz-ySAxV3wTgGHSOFNNMQtKgLegQIFxAB&biw=1366&bih=641&dpr=1&safe=active&ssui=on#sv=CAMSVhoyKhBlLXlQZ3JXS3AwZjVJM1JNMg55UGdyV0twMGY1STNSTToOYWFrOGY5MEQyNnBTZk0gBCocCgZtb3NhaWMSEGUteVBncldLcDBmNUkzUk0YADABGAcg68ieuAQwAkoIEAIYAiACKAI" />
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #eee;
+      overflow: hidden; /* Mencegah scroll ganda */
+    }
+
+    .iframe-container {
+      width: 100%;
+      height: 100dvh; /* Menggunakan dvh agar pas di mobile browser */
+      overflow: hidden;
+    }
+
+    iframe {
+      display: block;
+      width: 100%;
+      height: 100%;
+      border: none;
+    }
+  </style>
+</head>
+<body>
+  <div class="iframe-container">
+    <iframe
+      id="app"
+      src="https://script.google.com/macros/s/AKfycbypoodQpLzfN0YbcobETLm7Y9bGVMKHqRWivn8-nVIE3U1nQ5unsFOxTtGxVwHJoQR6/exec"
+      scrolling="yes"
+      allowfullscreen="true"
+      webkitallowfullscreen="true"
+      mozallowfullscreen="true"
+      allow="fullscreen; camera; microphone; display-capture; geolocation;">
+    </iframe>
+  </div>
+</body>
+</html>
